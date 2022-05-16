@@ -8,7 +8,7 @@ public class UserRegistration {
 
     static Scanner sc = new Scanner(System.in);
 
-    public static void validateFirstName(){
+    public static void validateFirstName() {
 
         System.out.println("Enter first name: ");
         String fName = sc.next();
@@ -138,5 +138,13 @@ public class UserRegistration {
             System.out.println("Valid G-mail Address");
         else
             System.out.println("Invalid G-mail Address");
+    }
+
+    public boolean validateFirstName(String fname) {
+        String regex="^[A-Z]{1}[a-z]*";
+        Pattern p=Pattern.compile(regex);
+        Matcher m=p.matcher(fname);
+        boolean r=m.matches();
+        return r;
     }
 }

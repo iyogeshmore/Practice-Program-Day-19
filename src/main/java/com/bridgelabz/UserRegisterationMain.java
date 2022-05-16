@@ -8,7 +8,6 @@ public class UserRegisterationMain {
         Scanner input = new Scanner(System.in);
         int choice;
         do{
-
             System.out.println("Enter your choice: ");
             System.out.println("1: Validate name.");
             System.out.println("2: Validate last name.");
