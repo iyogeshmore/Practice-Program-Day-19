@@ -18,6 +18,7 @@ public class UserRegisterationMain {
             System.out.println("7: Validate Password Rule3");
             System.out.println("8: Validate Password Rule4");
             System.out.println("9 : Validate a Simple Gmail Address");
+            System.out.println("10 : Check Gmail Address");
             System.out.println("0: Exit.");
             choice = input.nextInt();
 
