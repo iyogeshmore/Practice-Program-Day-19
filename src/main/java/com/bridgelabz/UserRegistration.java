@@ -1,5 +1,6 @@
 package com.bridgelabz;
 
+import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.Scanner;
@@ -139,6 +140,8 @@ public class UserRegistration {
         else
             System.out.println("Invalid G-mail Address");
     }
+
+//Junit UC1: Take First Name And Check It Is Getting Matched With Regex/Regular
 
     public boolean validateFirstName(String fname) {
         String regex="^[A-Z]{1}[a-z]*";
